@@ -1,0 +1,5 @@
+alias dv3="cd ~/Development/ruby/Atria/dv3"
+alias lap="cd ~/Development/ruby/Atria/laserapp"
+alias dep="cd ~/Development/ruby/Atria/deploy"
+
+alias dot="cd ~/dotfile"

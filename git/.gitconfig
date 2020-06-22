@@ -1,0 +1,13 @@
+[color]
+	ui = true
+[user]
+	name = Ivan Zinkevich
+	email = kevichivan@gmail.com
+	signingkey = 892C1CFC2E90EF37
+[commit]
+	gpgsign = true
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true

@@ -1,0 +1,16 @@
+HOST syn3-ivanzinkevich
+  HostName laserapp-app1.synth3.sea.orcasnet.net 
+  User izinkevich
+
+HOST syn3-deploy
+  HostName laserapp-app1.synth3.sea.orcasnet.net
+  User deploy
+
+HOST stg
+ HostName laserapp-app1.stg.sea.orcasnet.net
+ User deploy
+
+HOST bitrix
+ HostName vh114.hoster.by
+ Port 22
+ User a24onlin
