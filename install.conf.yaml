@@ -1,0 +1,42 @@
+- defaults:
+    link:
+      relink: true
+
+- clean: ['~']
+
+- link:
+
+    # VIM
+    ~/.vimrc: 
+      relink: true
+      path: vim/.vimrc
+
+    # ZSH
+    ~/.zshrc:
+      force: true
+      path: zsh/.zshrc
+    ~/.zsh_aliases:
+      force: true
+      path: zsh/.zsh_aliases
+    ~/.zsh_exports:
+      force: true
+      path: zsh/.zsh_exports
+    ~/.zsh_functions:
+      force: true
+      path: zsh/.zsh_functions
+
+    # SSH
+    ~/.ssh/config:
+      force: true
+      path: ssh/config
+
+    # GIT
+    ~/.gitconfig:
+      force: true
+      path: git/.gitconfig
+    ~/.gitignore_global:
+      force: true
+      path: git/.gitignore_global
+
+- shell:
+  - [git submodule update --init --recursive, Installing submodules]
