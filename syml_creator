@@ -1,0 +1,12 @@
+#!/usr/bin/env zsh
+ln -sf ~/dotfile/zsh/.zshrc ~/.zshrc
+ln -sf ~/dotfile/zsh/.zsh_aliases ~/.zsh_aliases
+ln -sf ~/dotfile/zsh/.zsh_exports ~/.zsh_exports
+ln -sf ~/dotfile/zsh/.zsh_functions ~/.zsh_functions
+ln -sf ~/dotfile/git/.gitconfig ~/.gitconfig
+ln -sf ~/dotfile/git/.gitignore_global ~/.gitignore_global
+ln -sf ~/dotfile/.ssh/config ~/.config
+ln -sf ~/dotfile/.ssh/config ~/.ssh/config
+ln -sf ~/dotfile/ssh/config ~/.ssh/config
+ln -sf ~/dotfile/vim/.vimrc ~/.vimrc
+ln -sf ~/dotfile/vim/.viminfo ~/.viminfo
