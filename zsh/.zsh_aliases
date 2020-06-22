@@ -3,3 +3,4 @@ alias lap="cd ~/Development/ruby/Atria/laserapp"
 alias dep="cd ~/Development/ruby/Atria/deploy"
 
 alias dot="cd ~/dotfile"
+
