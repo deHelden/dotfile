@@ -15,6 +15,9 @@
     ~/.zshrc:
       force: true
       path: zsh/.zshrc
+    ~/.oh-my-zsh:
+      force: true
+      path: zsh/.oh-my-zsh
     ~/.zsh_aliases:
       force: true
       path: zsh/.zsh_aliases
