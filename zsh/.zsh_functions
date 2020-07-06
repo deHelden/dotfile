@@ -12,6 +12,7 @@ function mdb() {
     local TMPFILE=$(mktemp)
     markdown "$*" > $TMPFILE && ( xdg-open $TMPFILE > /dev/null 2>&1 & )
 }
+
 # Git clone + npm install
 function gcn {
     url=$1;
@@ -25,4 +26,10 @@ function gcn {
     git clone $url $reponame;
     cd $reponame;
     npm install;
+}
+
+# Laserapp Deploy
+function send() {
+    current_location=$(pwd)
+    dep; UNSAFE=true BRANCH=$1 bundle exec cap laserapp:$2 deploy; $current_location
 }

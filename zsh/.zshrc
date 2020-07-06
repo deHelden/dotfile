@@ -27,6 +27,10 @@ git config --global user.email "$GIT_AUTHOR_EMAIL"
 # Set a default editor to avoid "Could not execute editor" error
 #git config --global core.editor "/usr/bin/vim"
 
+## GPG
+GPG_TTY=$(tty)
+export GPG_TTY
+
 ## NPM
 npm set init.author.email "kevichivan@gmail.com"
 npm set init.author.name "Ivan Zinkeivch"

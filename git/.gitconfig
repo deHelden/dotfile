@@ -3,7 +3,7 @@
 [user]
 	name = Ivan Zinkevich
 	email = kevichivan@gmail.com
-	signingkey = 892C1CFC2E90EF37
+	signingkey = 88E51C0DE1F4BA11
 [commit]
 	gpgsign = true
 [filter "lfs"]
