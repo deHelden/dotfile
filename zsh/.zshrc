@@ -74,3 +74,4 @@ fi
 if [ -f ~/.zsh_functions ]; then
     source ~/.zsh_functions
 fi
+export PATH="/usr/local/sbin:$PATH"

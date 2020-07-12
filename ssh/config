@@ -1,8 +1,8 @@
-HOST syn3-ivanzinkevich
+HOST synth3-ivanzinkevich
   HostName laserapp-app1.synth3.sea.orcasnet.net 
   User izinkevich
 
-HOST syn3-deploy
+HOST synth3-deploy
   HostName laserapp-app1.synth3.sea.orcasnet.net
   User deploy
 
