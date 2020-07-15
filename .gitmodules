@@ -6,3 +6,6 @@
         path = zsh/.oh-my-zsh
         url = https://github.com/ohmyzsh/ohmyzsh.git  
         ignore = dirty
+[submodule "git/.git-semantic-commits"]
+	path = git/.git-semantic-commits
+	url = https://github.com/fteem/git-semantic-commits.git
