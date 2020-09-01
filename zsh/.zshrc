@@ -2,7 +2,7 @@ export PATH=$HOME/bin:/usr/local/bin:$PATH
 export ZSH=$HOME/.oh-my-zsh
 
 ZSH_THEME="robbyrussell"
-plugins=(git tig ruby rails docker docker-compose golang pip)
+plugins=(git tig ruby bundler rails docker docker-compose golang pip)
 plugins+=( history history-substring-search httpie sudo vagrant postgres )
 plugins+=( osx lein node npm jump gulp mosh )
 

@@ -5,3 +5,5 @@ export NVM_DIR="$HOME/.nvm"
 export PATH="/usr/local/opt/postgresql@9.4/bin:$PATH"
 
 export BASE_AO_URL="http://dv3-app1.synth3.sea.orcasnet.net:3005"
+
+export LASERAPP_AO_URL="http://localhost:4000"
