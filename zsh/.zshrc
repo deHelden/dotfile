@@ -4,7 +4,6 @@ export ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="robbyrussell"
 plugins=(git tig ruby bundler rails docker docker-compose golang pip)
 plugins+=( history history-substring-search httpie sudo vagrant postgres )
-plugins+=( osx lein node npm jump gulp mosh )
 
 source $ZSH/oh-my-zsh.sh
 
@@ -32,12 +31,12 @@ GPG_TTY=$(tty)
 export GPG_TTY
 
 ## NPM
-npm set init.author.email "kevichivan@gmail.com"
-npm set init.author.name "Ivan Zinkeivch"
-npm set init.license "MIT"
+# npm set init.author.email "kevichivan@gmail.com"
+# npm set init.author.name "Ivan Zinkeivch"
+# npm set init.license "MIT"
 
 ## RUBY
-eval "$(rbenv init -)"
+# eval "$(rbenv init -)"
 
 ##### EXPORT
 
