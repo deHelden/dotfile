@@ -28,8 +28,8 @@ function gcn {
     npm install;
 }
 
-# Laserapp Deploy
-function send() {
-    current_location=$(pwd)
-    dep; UNSAFE=true BRANCH=$1 bundle exec cap laserapp:$2 deploy; $current_location
+# start attacked Backend 
+function dcu {
+    cd ~/Development/core;
+    docker-compose up -d backend && docker attach $(docker-compose ps -q backend)
 }

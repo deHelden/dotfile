@@ -9,7 +9,7 @@
     # VIM
     ~/.vimrc: 
       relink: true
-      path: vim/.vimrc
+      path: shared/vim/.vimrc
 
     # ZSH
     ~/.zshrc:
@@ -30,16 +30,21 @@
 
     # SSH
     ~/.ssh/config:
-      force: true
-      path: ssh/config
+      relink: true
+      if: '[`whoami` = mine]'
+      path: home/ssh/config
 
     # GIT
     ~/.gitconfig:
       force: true
-      path: git/.gitconfig
+      path: softswiss/.gitconfig
     ~/.gitignore_global:
       force: true
-      path: git/.gitignore_global
+      path: shared/.gitignore_global
+
+    ~/.pryrc:
+      force: true
+      path: shared/.pryrc
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]

@@ -1,9 +1,19 @@
-export NVM_DIR="$HOME/.nvm"
-  [ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
-  [ -s "/usr/local/opt/nvm/etc/bash_completion.d/nvm" ] && . "/usr/local/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
+#export NVM_DIR="$HOME/.nvm"
+#  [ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
+#  [ -s "/usr/local/opt/nvm/etc/bash_completion.d/nvm" ] && . "/usr/local/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
 
-export PATH="/usr/local/opt/postgresql@9.4/bin:$PATH"
+## For Brew
 
-export BASE_AO_URL="http://dv3-app1.synth3.sea.orcasnet.net:3005"
+# For compilers to find readline you may need to set:
+#export LDFLAGS="-L/usr/local/opt/readline/lib"
+#export CPPFLAGS="-I/usr/local/opt/readline/include"
 
-export LASERAPP_AO_URL="http://localhost:4000"
+# For pkg-config to find readline you may need to set:
+#export PKG_CONFIG_PATH="/usr/local/opt/readline/lib/pkgconfig"
+
+# To link Rubies to Homebrew's OpenSSL 1.1
+# export RUBY_CONFIGURE_OPTS="--with-openssl-dir=$(brew --prefix openssl@1.1)"
+
+# export COMPOSE_PROJECT_NAME="casino-reports"
+
+

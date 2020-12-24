@@ -1,7 +1,7 @@
-alias dv3="cd ~/Development/ruby/Atria/dv3"
-alias lap="cd ~/Development/ruby/Atria/laserapp"
-alias dep="cd ~/Development/ruby/Atria/deploy"
-alias mor="cd ~/Development/ruby/Atria/morningstar"
+alias cor="cd ~/Development/core"
 
 alias dot="cd ~/dotfile"
 
+# Softswiss
+alias drubocop="dcr --rm backend rubocop -a"
+alias drspec="dcr --rm backend rspec"

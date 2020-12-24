@@ -16,16 +16,6 @@ alias dpsa="docker ps -a"
 alias dcup="docker-compose up"
 alias dcupd="docker-compose up -d"
 
-## GIT
-GIT_AUTHOR_NAME="Ivan Zinkevich"
-GIT_COMMITTER_NAME="$GIT_AUTHOR_NAME"
-git config --global user.name "$GIT_AUTHOR_NAME"
-GIT_AUTHOR_EMAIL="kevichivan@gmail.com"
-GIT_COMMITTER_EMAIL="$GIT_AUTHOR_EMAIL"
-git config --global user.email "$GIT_AUTHOR_EMAIL"
-# Set a default editor to avoid "Could not execute editor" error
-#git config --global core.editor "/usr/bin/vim"
-
 ## GPG
 GPG_TTY=$(tty)
 export GPG_TTY
@@ -36,7 +26,7 @@ export GPG_TTY
 # npm set init.license "MIT"
 
 ## RUBY
-# eval "$(rbenv init -)"
+eval "$(rbenv init -)"
 
 ##### EXPORT
 
