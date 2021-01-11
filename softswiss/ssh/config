@@ -1,0 +1,25 @@
+Host platform-bi-1
+    Hostname 46.4.177.174
+    Port 23041
+    User platform-bi-1
+
+Host clickhouse-staging-1
+  Hostname 136.243.30.98
+  port 34473
+  User clickhouse-staging-1
+  IdentityFile ~/.ssh/id_rsa
+Host clickhouse-staging-2
+  Hostname 148.251.124.246
+  port 35463
+  User clickhouse-staging-2
+  IdentityFile ~/.ssh/id_rsa
+Host clickhouse-staging-3
+  Hostname 136.243.176.195
+  port 24564
+  User clickhouse-staging-3
+  IdentityFile ~/.ssh/id_rsa
+Host clickhouse-staging-4
+  Hostname 138.201.1.187
+  port 27645
+  User clickhouse-staging-4
+  IdentityFile ~/.ssh/id_rsa
